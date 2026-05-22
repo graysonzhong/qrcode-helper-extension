@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "新意二維碼助手",
+    "description": "Extension display name for Traditional Chinese."
+  },
+  "extDesc": {
+    "message": "於本機瀏覽器內產生與解析二維碼；頁面網址與解碼用圖片不上傳遠端伺服器。權限用於讀取目前分頁網址（產生目前頁二維碼）與本機儲存配色等偏好。",
+    "description": "Short description."
+  }
+}

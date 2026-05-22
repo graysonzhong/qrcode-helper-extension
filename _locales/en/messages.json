@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Xinyi QR Assistant",
+    "description": "Extension display name for English."
+  },
+  "extDesc": {
+    "message": "Generate and decode QR codes locally. URLs and decode images are not uploaded. Uses activeTab (current URL when invoked) and local storage for preferences only.",
+    "description": "Short description."
+  }
+}
