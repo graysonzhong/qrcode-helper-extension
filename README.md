@@ -11,9 +11,13 @@
 
 **Manifest V3** extension for Microsoft Edge / Chromium: generate QR codes from the active tab URL, decode from images/videos/local files, export locally (PNG / JPG / SVG). Processing stays in the browser; **extension content is not sent to vendor servers.**
 
+---
+
 ## Install from Edge Add-ons
 
 [Install from Microsoft Edge Add-ons →](https://microsoftedge.microsoft.com/addons/detail/%E6%96%B0%E6%84%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%A9%E6%89%8B/cmdjefcipmckabkdnmbcfiejfcckkeek)
+
+---
 
 ## Developer build & load unpacked
 
@@ -26,11 +30,75 @@ Open `edge://extensions` or `chrome://extensions`, enable **Developer mode**, **
 
 If this tree lives inside a larger monorepo as `extension/`, run the commands inside that folder.
 
+---
+
 ## Source / license
 
 - Repository: **[graysonzhong/qrcode-helper-extension](https://github.com/graysonzhong/qrcode-helper-extension)**  
-- License: **[MIT](./LICENSE)**  
+- License: **[MIT](./LICENSE)**
+
+---
 
 ## Releases
 
-Stable store-aligned packages are attached to **[GitHub Releases](https://github.com/graysonzhong/qrcode-helper-extension/releases)** (e.g. `1.0.1`).
+Store-aligned packages (e.g. **1.0.1**) are on **[GitHub Releases](https://github.com/graysonzhong/qrcode-helper-extension/releases)**.
+
+---
+
+## About the product
+
+**Xinyi QR Assistant** generates and decodes QR codes in your local browser. Webpage URLs you use and images you decode are **not uploaded** to remote servers; core features work without cloud APIs (except when you **choose to open** an external link from a decoded result).
+
+---
+
+## About the publisher
+
+**Shenzhen Yonovelty Information Technology Co., Ltd.** (深圳市柚新意信息技术有限责任公司) is an IT solutions provider and original software vendor. We deliver digital solutions for enterprise ecosystems through FDE-driven value delivery, AI enablement, and DevOps automation — secure, high-performance, maintainable applications.
+
+---
+
+## Contact
+
+| | |
+| --- | --- |
+| **Phone** | [+86 191 4646 6617](tel:+8619146466617) |
+| **Email** | [zgs@yonovelty.com](mailto:zgs@yonovelty.com) |
+| **Website** | [yonovelty.com](https://www.yonovelty.com/) |
+| **Address** | Room 212, Building 2, Futong Haizhi Technology Park, No. 17 Bulan Road, Xialilang Community, Nanwan Street, Longgang District, Shenzhen, China |
+
+### Contact visuals (bundled SVGs — same assets as extension “About”)
+
+GitHub README cannot run the live extension UI; the images below are the **exact same** `extension-assets/*.svg` files shipped inside the `.zip`/loaded folder. Prefer the in-browser About page if you rely on QR scanning workflow.
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><strong>WeChat</strong><br/><a href="./extension-assets/wx-gray.svg"><img src="./extension-assets/wx-gray.svg" height="132" alt="WeChat QR-style graphic"/></a></td>
+    <td align="center" width="50%"><strong>WeCom</strong><br/><a href="./extension-assets/qywx-gray.svg"><img src="./extension-assets/qywx-gray.svg" height="132" alt="WeCom QR-style graphic"/></a></td>
+  </tr>
+</table>
+
+Light/dark-theme variants (`wx-white.svg`, `qywx-white.svg`) also exist beside these files under `extension-assets/` if your viewer background differs.
+
+---
+
+## Other products & services
+
+Text links mirror the extension About cards:
+
+| Site | Tagline (short) |
+| --- | --- |
+| [**lookmy.net**](https://lookmy.net) | Network check helper |
+| [**lookmy.show**](https://lookmy.show) | Nationwide expo search (expos · calendar · sales) |
+| [**yonovelty.com**](https://www.yonovelty.com) | Custom software · deep integration & IT services |
+
+### Static promo strip (readme-only)
+
+The animated **Canvas** demos in-app cannot render here. Below are **static SVG banners** (click-through to each site):
+
+<p align="center">
+  <a href="https://lookmy.net"><img src="./readme-assets/promo-lookmy.svg" height="104" alt="LOOKMY.NET"/></a><br/><br/>
+  <a href="https://lookmy.show"><img src="./readme-assets/promo-show.svg" height="104" alt="lookmy.show"/></a><br/><br/>
+  <a href="https://www.yonovelty.com"><img src="./readme-assets/promo-yonovelty.svg" height="104" alt="yonovelty.com"/></a>
+</p>
+
+Capability highlights promoted in-product: **private CRM**, **CMS**, **AI delivery** (exact wording varies by UI language).
