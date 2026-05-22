@@ -1,1 +1,4 @@
 node_modules/
+
+# 本地打包/上架脚本，不上传开源仓（自行保留即可）
+scripts/package-edge-upload.ps1

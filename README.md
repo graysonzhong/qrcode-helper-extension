@@ -1,17 +1,36 @@
-# 新意二维码助手 · 浏览器扩展
+# Xinyi QR Assistant · Browser Extension
 
-Microsoft Edge：**[新意二维码助手（商店安装）](https://microsoftedge.microsoft.com/addons/detail/%E6%96%B0%E6%84%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%A9%E6%89%8B/cmdjefcipmckabkdnmbcfiejfcckkeek)**  
-源码：**[GitHub](https://github.com/graysonzhong/qrcode-helper-extension)**
+<p align="left">
+  <a href="./README.md"><img src="https://img.shields.io/badge/lang-English-555555?labelColor=%23333" alt="English" /></a>
+  &nbsp;<a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-简体中文-555555?labelColor=%23333" alt="简体中文" /></a>
+  &nbsp;<a href="./README.zh-TW.md"><img src="https://img.shields.io/badge/lang-繁體中文-555555?labelColor=%23333" alt="繁體中文" /></a>
+</p>
 
-Manifest V3，本地生成或解析二维码图片，二维码与网址不上传远端。许可见根目录 **`LICENSE`**（MIT）。
+[![Microsoft Edge — Add-ons](https://img.shields.io/badge/Microsoft%20Edge-Add--ons-purple?logo=microsoftedge)](https://microsoftedge.microsoft.com/addons/detail/%E6%96%B0%E6%84%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%A9%E6%89%8B/cmdjefcipmckabkdnmbcfiejfcckkeek)
+[![MIT License](https://img.shields.io/badge/license-MIT-555?labelColor=blue)](./LICENSE)
 
-## 开发与本地加载
+**Manifest V3** extension for Microsoft Edge / Chromium: generate QR codes from the active tab URL, decode from images/videos/local files, export locally (PNG / JPG / SVG). Processing stays in the browser; **extension content is not sent to vendor servers.**
+
+## Install from Edge Add-ons
+
+[Install from Microsoft Edge Add-ons →](https://microsoftedge.microsoft.com/addons/detail/%E6%96%B0%E6%84%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%8A%A9%E6%89%8B/cmdjefcipmckabkdnmbcfiejfcckkeek)
+
+## Developer build & load unpacked
 
 ```bash
 npm install
 npm run build
 ```
 
-浏览器打开 `edge://extensions` 或 `chrome://extensions`，开发者模式开启后「加载解压缩的扩展」，选择 **`manifest.json` 所在文件夹**。
+Open `edge://extensions` or `chrome://extensions`, enable **Developer mode**, **Load unpacked**, and choose the folder that contains **`manifest.json`**.
 
-若本目录在更大的工程里叫作 `extension/`，在子目录执行以上命令即可。
+If this tree lives inside a larger monorepo as `extension/`, run the commands inside that folder.
+
+## Source / license
+
+- Repository: **[graysonzhong/qrcode-helper-extension](https://github.com/graysonzhong/qrcode-helper-extension)**  
+- License: **[MIT](./LICENSE)**  
+
+## Releases
+
+Stable store-aligned packages are attached to **[GitHub Releases](https://github.com/graysonzhong/qrcode-helper-extension/releases)** (e.g. `1.0.1`).
