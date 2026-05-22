@@ -66,39 +66,16 @@ Store-aligned packages (e.g. **1.0.1**) are on **[GitHub Releases](https://githu
 | **Website** | [yonovelty.com](https://www.yonovelty.com/) |
 | **Address** | Room 212, Building 2, Futong Haizhi Technology Park, No. 17 Bulan Road, Xialilang Community, Nanwan Street, Longgang District, Shenzhen, China |
 
-### Contact visuals (bundled SVGs — same assets as extension “About”)
-
-GitHub README cannot run the live extension UI; the images below are the **exact same** `extension-assets/*.svg` files shipped inside the `.zip`/loaded folder. Prefer the in-browser About page if you rely on QR scanning workflow.
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%"><strong>WeChat</strong><br/><a href="./extension-assets/wx-gray.svg"><img src="./extension-assets/wx-gray.svg" height="132" alt="WeChat QR-style graphic"/></a></td>
-    <td align="center" width="50%"><strong>WeCom</strong><br/><a href="./extension-assets/qywx-gray.svg"><img src="./extension-assets/qywx-gray.svg" height="132" alt="WeCom QR-style graphic"/></a></td>
-  </tr>
-</table>
-
-Light/dark-theme variants (`wx-white.svg`, `qywx-white.svg`) also exist beside these files under `extension-assets/` if your viewer background differs.
+For WeChat / WeCom QR-style imagery, open the extension **About** page in Edge.
 
 ---
 
 ## Other products & services
-
-Text links mirror the extension About cards:
 
 | Site | Tagline (short) |
 | --- | --- |
 | [**lookmy.net**](https://lookmy.net) | Network check helper |
 | [**lookmy.show**](https://lookmy.show) | Nationwide expo search (expos · calendar · sales) |
 | [**yonovelty.com**](https://www.yonovelty.com) | Custom software · deep integration & IT services |
-
-### Static promo strip (readme-only)
-
-The animated **Canvas** demos in-app cannot render here. Below are **static SVG banners** (click-through to each site):
-
-<p align="center">
-  <a href="https://lookmy.net"><img src="./readme-assets/promo-lookmy.svg" height="104" alt="LOOKMY.NET"/></a><br/><br/>
-  <a href="https://lookmy.show"><img src="./readme-assets/promo-show.svg" height="104" alt="lookmy.show"/></a><br/><br/>
-  <a href="https://www.yonovelty.com"><img src="./readme-assets/promo-yonovelty.svg" height="104" alt="yonovelty.com"/></a>
-</p>
 
 Capability highlights promoted in-product: **private CRM**, **CMS**, **AI delivery** (exact wording varies by UI language).

@@ -66,18 +66,7 @@ npm run build
 | **官網** | [yonovelty.com](https://www.yonovelty.com/) |
 | **地址** | 深圳市龍崗區南灣街道下李朗社區布瀾路17號富通海智科技園2棟212 |
 
-### 聯絡用圖（與擴充功能套件內資源一致）
-
-GitHub README 無法執行擴充功能介面；以下為 **`extension-assets`** 中與內建「關於」頁**同源**的 SVG（與上架 zip／載入解壓縮目錄內為同一檔案）。若需與實際掃碼流程一致，仍建議於瀏覽器開啟擴充功能 **「關於」** 頁。
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%"><strong>微信</strong><br/><a href="./extension-assets/wx-gray.svg"><img src="./extension-assets/wx-gray.svg" height="132" alt="微信聯絡圖示"/></a></td>
-    <td align="center" width="50%"><strong>企業微信</strong><br/><a href="./extension-assets/qywx-gray.svg"><img src="./extension-assets/qywx-gray.svg" height="132" alt="企業微信聯絡圖示"/></a></td>
-  </tr>
-</table>
-
-淺色／深色另有 `wx-white.svg`、`qywx-white.svg`（同目錄），可依背景選用。
+微信／企業微信聯絡 QR 請在瀏覽器開啟擴充功能 **「關於」** 頁查看。
 
 ---
 
@@ -88,15 +77,5 @@ GitHub README 無法執行擴充功能介面；以下為 **`extension-assets`** 
 | [**lookmy.net**](https://lookmy.net) | 網路檢查小助手 |
 | [**lookmy.show**](https://lookmy.show) | 全國展會查詢（展會 · 日曆 · 銷售） |
 | [**yonovelty.com**](https://www.yonovelty.com) | 軟體定制 · 深度整合與 IT 服務 |
-
-### README 靜態「推廣條」（近似底部三卡）
-
-擴充功能內三塊推廣為 **Canvas 動畫**，無法在 README 重現。以下為儲存庫內新增的 **靜態 SVG 橫幅**，點擊可前往對應網站：
-
-<p align="center">
-  <a href="https://lookmy.net"><img src="./readme-assets/promo-lookmy.svg" height="104" alt="LOOKMY.NET"/></a><br/><br/>
-  <a href="https://lookmy.show"><img src="./readme-assets/promo-show.svg" height="104" alt="lookmy.show"/></a><br/><br/>
-  <a href="https://www.yonovelty.com"><img src="./readme-assets/promo-yonovelty.svg" height="104" alt="柚新意"/></a>
-</p>
 
 擴充功能內另有標籤：**私有 CRM**、**信創 CMS**、**AI 落地**（用語可能隨介面語言略有差異）。
